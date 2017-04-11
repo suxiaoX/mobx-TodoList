@@ -28,7 +28,7 @@ export default class TodoEntry extends Component{
         ref="newField"
         className="new-todo"
         placeholder="请输入标题"
-        onKeyDown={}
+        onKeyDown={this.handleNewTodoKeyDown}
         aotuFocus={true}
       />
     )
